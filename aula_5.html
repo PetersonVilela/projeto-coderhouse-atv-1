@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR>
+<head>
+    <meta charset=" UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teste da aula 5</title>
+</head>
+
+<body>
+    <h1> Lista não Ordenada</h1>
+    <ul>
+        <li>Página de Serviços</li>
+        <li>Produtos</li>
+        <li>Contatos</li>
+    </ul>
+    <p> ------------ </p> <!-- separador de testes-->
+    <h1> Receita de Bolo de Chocolate da Dona Dita</h1>
+    <h2> Ingredientes para a Massa</h2>
+    <ul>
+        <li>3 ovos</li>
+        <li>1 e meia xícara de chá dfe açúcar</li>
+        <li>Meia xícara de chá de óleo</li>
+        <li>1 xícara de chá de chocolate em pó</li>
+        <li>2 xícaras de chá de farinha de trigo</li>
+        <li>1 xícara de chá de água quente</li>
+        <li>1 colher de sopa de fermento em pó</li>
+    </ul>
+    <h2>Modo de Preparo</h2>
+    <h3> Massa</h3>
+    <ol>
+        <li>Em uma tigela, coloque 3 ovos, 1 e meia xícara de chá de açúcar, meia xícara de chá de óleo, 1 xícara de chá
+            de chocolate em pó e 2 xícaras de chá de farinha de trigo. Misture delicadamente os ingredientes.</li>
+        <li>Em seguida, adicione 1 xícara de chá de água quente, 1 colher de sopa de fermento em pó e bata até ficar
+            homogêneo.</li>
+        <li>Transfira a massa para uma forma untada e enfarinhada com uma mistura de farinha de trigo e chocolate em pó.
+            Leve para assar em forno preaquecido a 180 graus Celsius por 40 minutos.</li>
+    </ol>
+    <h2> Ingredientes para a Cobertura</h2>
+    <ul>
+        <li>1 e meia xícara de chá de leite</li>
+        <li>Meia xícara de chá de chocolate em pó</li>
+        <li>1 colher de sopa de manteiga</li>
+        <li>1 xícara de chá de açúcar</li>
+    </ul>
+    <h2>Modo de Preparo</h2>
+    <h3>Cobertura</h3>
+    <ol>
+        <li>Em uma panela, coloque 1 e meia xícara de chá de leite, meia xícara de chá de chocolate em pó, 1 colher de
+            sopa de manteiga e 1 xícara de chá de açúcar. Misture, ligue o fogo e deixe ferver.Despeje a calda no bolo
+            ainda quente e sirva em seguida.</li>
+        <li>Despeje a calda no bolo ainda quente e sirva em seguida.</li>
+    </ol>
+
+    <p> ------------ </p> <!-- separador de testes-->
+
+    <h1>Criando sublistas</h1>
+    <ul>
+        <li> Linguagem de Programação</li>
+        <ul>
+            <li>JavaScript </li>
+            <li>Phyton</li>
+        </ul>
+    </ul>
+
+    <p> ------------ </p> <!-- separador de testes-->
+
+    <h1> Criando Listas de Definições</h1>
+    <dl>
+        <dt>Html</dt>
+        <dd>
+            HTML é a linguagem de marcação de textos utilizada para exibir textos como páginas na internet.
+        </dd>
+        <dt>Navegador</dt>
+        <dd>
+            Navegador é o software que requisita um documento HTML através do protocolo HTTP e exibe seu conteúdo em uma
+            janela.
+        </dd>
+    </dl>
+
+    <p> ------------ </p> <!-- separador de testes-->
+
+    <table border>
+        <tr>
+            <th>Frutas</th>
+            <th>Verduras</th>
+            <th>Legumes</th>
+        </tr>
+        <tr>
+            <td>Maçã</td>
+            <td>Alface</td>
+            <td>Amendoim</td>
+        </tr>
+        <tr>
+            <td>Laranja</td>
+            <td>Couve</td>
+            <td>Trigo</td>
+        </tr>
+    </table>
+
+    <p> ------------ </p> <!-- separador de testes-->
+    <h1>Testando criar formulários</h1>
+
+    <form>
+        <input type="text" placeholder="Nome">
+        <input type="password" placeholder="Senha">
+        <button type="reset">Limpar</button>
+        <button type="submit">Fazer Login</button>
+    </form>
+
+    <h2>Formulário com acessibilidade</h2>
+    <form>
+        <label for="nome"> Nome:</label>
+        <input type="text" name="nome">
+        <br>
+        <label for="mensagem">Mensagem</label>
+        <br>
+        <textarea name="Mensagem" cols="30" rows="10"></textarea>
+        <br>
+        <select id="Idade" required>
+            <option selected="true" disabled="disabled" value="">Selecione se você é maior ou meno de 18 anos</option>
+            <option value="Maior de 18 anos">+18</option>
+            <option value="Menor de 18 anos">-18</option>
+
+        </select>
+        <br>
+        <input type="checkbox" id="aceite" value="name">
+        <label for="aceite">Aceite para os termos de uso</label>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h1>Atividade em sala</h1>
+    <form>
+        <fieldset>
+            <legend>Informações pessoais</legend>
+            <label for="genero">Gênero</label>
+            <br>
+            <input type="radio" name="generoUsuario" id="generoMasculino">
+            <label for="generoMasculino">Masculino</label>
+            <input type="radio" name="generoUsuario" id="generoFeminino">
+            <label for="generoFeminino">Feminino</label>
+            <input type="radio" name="generoUsuario" id="generoNeutro">
+            <label for="generoNeutro">Gênero Neutro</label>
+            <br>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome">
+            <br>
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" id="sobrenome">
+            <br>
+            <label for="tamanho">Tamanho</label>
+            <select name="" id="">
+                <option disabled selected value="">Selecione o tamanho</option>
+                <option value="G">G</option>
+                <option value="M">M</option>
+                <option value="P">P</option>
+            </select>
+            <br>
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
